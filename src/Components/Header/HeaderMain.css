@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+/*  */
+.headermain {
+  background-color: red;
+}
+.headermain-nav-menu {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 35px;
+  font-family: "Roboto", sans-serif;
+}
+.headermain-nav-menu a {
+  text-decoration: none;
+}
+/*  */
+/*  */
+/*  */
+.headermain-nav-menu .headermain-left-section,
+.headermain-nav-menu .headermain-right-section {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+/*  */
+/*  */
+/*  */
+.headermain-nav-menu .headermain-left-section .headermain-foydali {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-right: 10px;
+}
+.headermain-nav-menu .headermain-left-section .headermain-foydali a {
+  padding: 0 10px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 17px;
+}
+.headermain-nav-menu
+  .headermain-left-section
+  .headermain-foydali
+  .headermain-link,
+.headermain-nav-menu
+  .headermain-left-section
+  .headermain-foydali
+  .headermain-linktwo {
+  background-color: white;
+  color: red;
+  padding: 5px;
+  border-radius: 10px;
+}
+.headermain-nav-menu
+  .headermain-left-section
+  .headermain-foydali
+  .headermain-linkone {
+  padding: 5px;
+  border: 2px solid white;
+  border-radius: 10px;
+  color: white;
+}
+/*  */
+.headermain-nav-menu
+  .headermain-left-section
+  .headermain-foydali
+  .headermain-link:hover,
+.headermain-nav-menu
+  .headermain-left-section
+  .headermain-foydali
+  .headermain-linktwo:hover {
+  transition: background-color 0.5s ease-in-out;
+  background-color: red;
+  color: white;
+  border: 2px solid white;
+}
+.headermain-nav-menu
+  .headermain-left-section
+  .headermain-foydali
+  .headermain-linkone:hover {
+  transition: background-color 0.5s ease-in-out;
+  background-color: white;
+  color: red;
+}
+/*  */
+.headermain-nav-menu .headermain-left-section .headermain-sayt-map a {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 17px;
+  color: white;
+}
+.headermain-nav-menu .headermain-left-section .headermain-sayt-map a:hover {
+  opacity: 80%;
+}
+/*  */
+/*  */
+/*  */
+.headermain-nav-menu .headermain-right-section .headermain-number-shop {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-right: 20px;
+}
+.headermain-nav-menu
+  .headermain-right-section
+  .headermain-number-shop
+  .headermain-link-number {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 21px;
+  color: white;
+}
+.headermain-nav-menu
+  .headermain-right-section
+  .headermain-number-shop
+  .headermain-link-number:hover {
+  opacity: 80%;
+}
+.headermain-nav-menu
+  .headermain-right-section
+  .headermain-number-shop
+  .headermain-link-shop {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 17px;
+  color: white;
+  border: 2px solid white;
+  padding: 10px;
+  border-radius: 10px;
+}
+.headermain-nav-menu
+  .headermain-right-section
+  .headermain-number-shop
+  .headermain-link-shop:hover {
+  transition: background-color 0.5s ease-in-out;
+  background-color: white;
+  color: red;
+  border: 2px solid red;
+}
+.headermain-nav-menu .headermain-right-section .headermain-langs-section {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.headermain-nav-menu .headermain-right-section .headermain-langs-section a {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 17px;
+  color: rgba(255, 255, 255, 0.84);
+}
+.headermain-nav-menu
+  .headermain-right-section
+  .headermain-langs-section
+  a:hover {
+  color: white;
+}
+.headermain-nav-menu
+  .headermain-right-section
+  .headermain-langs-section
+  a:active {
+  color: white;
+  transform: scale(0.9);
+}

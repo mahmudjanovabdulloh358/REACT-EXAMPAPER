@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+/*  */
+.headerbottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 35px;
+  font-family: "Rubik", sans-serif;
+}
+.headerbottom a {
+  text-decoration: none;
+}
+/*  */
+/*  */
+/*  */
+.headerbottom .logo-katalog {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.headerbottom .logo-katalog h1 a {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 31px;
+  color: red;
+}
+.headerbottom .logo-katalog button {
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.33px;
+  background-color: white;
+  padding: 15px 27px 15px 28px;
+  transition: all 0.3s ease 0s;
+  border: 2px solid #111;
+  border-radius: 12px;
+  color: #111;
+  cursor: pointer;
+}
+.headerbottom .logo-katalog button:hover {
+  color: red;
+  border-color: red;
+  transition: background-color 3s ease-in-out;
+}
+.headerbottom .logo-katalog button .headerbottom-icon {
+  font-size: 26px;
+}
+/*  */
+/*  */
+/*  */
+.headerbottom .headerbottom-input {
+  width: 700px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  background-color: #f2f2f2;
+  padding: 1px;
+  border: 1px solid #f2f2f2;
+  border-radius: 12px;
+}
+.headerbottom .headerbottom-input input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  padding: 11px 24px;
+  outline: none;
+  border-radius: 12px;
+  background-color: #f2f2f2;
+  font-size: 18px;
+}
+.headerbottom .headerbottom-input button {
+  width: 75px;
+  height: 100%;
+  border: none;
+  background-color: red;
+  margin: auto;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.headerbottom .headerbottom-input button .headerbottom-input-icon {
+  font-size: 24px;
+}
+/*  */
+/*  */
+/*  */
+.headerbottom nav ul {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  list-style-type: none;
+}
+.headerbottom nav ul li a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #111;
+}
+.headerbottom nav ul li a:hover {
+  color: red;
+  transition: color 0.3s ease-in;
+}
+.headerbottom nav ul li a .headerbottom-icon {
+  font-size: 24px;
+}
