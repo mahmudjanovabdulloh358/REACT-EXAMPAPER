@@ -1,0 +1,6 @@
+@media only screen and (max-width: 1017px) {
+  .headertop-figure {
+    display: block;
+    object-fit: cover;
+  }
+}

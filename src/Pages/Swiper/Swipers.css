@@ -1,0 +1,20 @@
+.swipers-swipers {
+  display: flex;
+  gap: 10px;
+  padding: 20px 35px;
+}
+.swipers-swiper {
+  width: 75%;
+  height: 400px;
+}
+.swipers-cards-swiper {
+  width: 350px;
+  height: 400px;
+}
+.swipers-swiper img,
+.swipers-cards-swiper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}

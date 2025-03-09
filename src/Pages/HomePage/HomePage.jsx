@@ -1,7 +1,12 @@
 import "./HomePage.css";
+import Swipers from "./../Swiper/Swipers";
 
 const HomePage = () => {
-  return <div>HomePage</div>;
+  return (
+    <main>
+      <Swipers />
+    </main>
+  );
 };
 
 export default HomePage;

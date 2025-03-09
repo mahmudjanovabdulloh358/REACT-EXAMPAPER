@@ -3,7 +3,7 @@ import "./App.css";
 // Components
 import Headers from "./Components/Header/Headers";
 // Routes,Route,Pages
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, useLocation } from "react-router-dom";
 import HomePage from "./Pages/HomePage/HomePage";
 import OlchaQoldan from "./Pages/OlchaQoldan/OlchaQoldan";
 import MuddatliTolov from "./Pages/MuddatliTolov/MuddatliTolov";
@@ -21,6 +21,11 @@ import Kirish from "./Pages/Kirish/Kirish";
 import NotFound from "./Pages/NotFound/NotFound";
 
 function App() {
+  const location = useLocation();
+
+  if (location.pathname.includes("/Kirish")) {
+    return <Kirish />;
+  }
   return (
     <>
       <Headers />
