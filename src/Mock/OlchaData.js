@@ -1,4 +1,4 @@
-export const OLCHAPRODUCTS = [
+export const OLCHADATA = [
   {
     id: "1",
     img: "https://olcha.uz/image/266x355/products/cdn_1/supplier/stores/1/2025-01-20/PB7ShRoCL1DsqAw3kDVlrGRbU6wNmelvWL8gf450ogX3ngLJzmx4clV5YuSM.png",
