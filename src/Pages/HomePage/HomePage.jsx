@@ -1,10 +1,12 @@
+import Swipers from "@/Components/Swipers/Swipers";
 import "./HomePage.css";
-import Swipers from "./../Swiper/Swipers";
+import OlchaData from "@/Components/OlchaData/OlchaData";
 
 const HomePage = () => {
   return (
     <main>
       <Swipers />
+      <OlchaData />
     </main>
   );
 };

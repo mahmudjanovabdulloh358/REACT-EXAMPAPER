@@ -2,6 +2,7 @@
 import "./App.css";
 // Components
 import Headers from "./Components/Header/Headers";
+import Footer from "./Components/Footer/Footer";
 // Routes,Route,Pages
 import { Route, Routes, useLocation } from "react-router-dom";
 import HomePage from "./Pages/HomePage/HomePage";
@@ -47,6 +48,8 @@ function App() {
         <Route path="Kirish" element={<Kirish />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
+
+      <Footer />
     </>
   );
 }
