@@ -5,6 +5,7 @@
   gap: 25px;
   padding: 20px 35px;
   margin: 20px 0;
+  font-family: "Poppins", sans-serif;
 }
 
 .olcha-data-card {
@@ -51,7 +52,7 @@
 .olcha-data-card-heading {
   padding: 12px;
   font-weight: bold;
-  font-size: 19px;
+  font-size: 14px;
   line-height: 25px;
   color: #333;
 }
@@ -63,7 +64,7 @@
 }
 
 .moneys span {
-  font-size: 21px;
+  font-size: 14px;
   font-weight: bold;
   color: #333;
   margin-bottom: 5px;
@@ -71,7 +72,7 @@
 }
 
 .moneys .month-money {
-  font-size: 12px;
+  font-size: 13px;
   color: #666;
   background-color: #ffd700;
   padding: 4px 8px;

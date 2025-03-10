@@ -1,7 +1,11 @@
+.olcha-data-one {
+  padding: 20px 15px;
+  font-family: "Poppins", sans-serif;
+}
+
 .olcha-data-one-div {
   width: 100%;
-  height: 102px;
-  padding: 20px 35px;
+  height: auto;
   margin-bottom: 4rem;
 }
 .olcha-data-one-div a img {
@@ -16,3 +20,116 @@
 /*  */
 /*  */
 /*  */
+.olcha-data-one-div-one {
+  background-color: red;
+  padding: 20px;
+  height: auto;
+}
+.olcha-data-one-div-one,
+.olcha-data-one-card-div-one {
+  display: flex;
+  align-items: start;
+  gap: 20px;
+}
+.olcha-data-one-card {
+  width: 410px;
+  height: 255px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background-color: #f3f3f3;
+  padding: 10px;
+}
+
+.olcha-data-one-card img {
+  width: 100%;
+}
+.olcha-data-one-card section {
+  margin-left: 5px;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+.olcha-data-one-card h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.olcha-data-one-card-one {
+  width: 240px;
+  height: 520px;
+  display: flex;
+  flex-direction: column;
+  background-color: aliceblue;
+  padding: 10px;
+  border-radius: 10px;
+}
+.olcha-data-one-card-one img {
+  width: 100%;
+}
+
+.olcha-data-one-card-one .olcha-data-one-icons-div {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  margin-left: 180px;
+  margin-top: 10px;
+}
+.olcha-data-one-icons-div button {
+  background-color: #f3f3f3;
+  color: gray;
+  border: none;
+  padding: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.olcha-data-one-icon {
+  font-size: 24px;
+}
+
+.olcha-data-text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.olcha-data-one-card-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.olcha-data-one-cart-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border: 1.5px solid #000;
+  background-color: white;
+  border-radius: 4px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.olcha-data-one-buy-btn:hover {
+  background-color: #f5f5f5;
+}
+
+.olcha-data-one-buy-btn {
+  width: 100%;
+  height: 40px;
+  background-color: white;
+  color: red;
+  border: 1.5px solid red;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.olcha-data-one-buy-btn:hover {
+  opacity: 65%;
+  background-color: #ff66663c;
+}
